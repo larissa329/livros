@@ -1,0 +1,55 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+/* Estilos do cabeçalho */
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos da seção de livros */
+.livro {
+    margin-bottom: 20px;
+}
+
+.livro img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+.livro h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
